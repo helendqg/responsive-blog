@@ -1,0 +1,193 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color:#2D2735;
+}
+.borde{
+	background-color:#1C1821;
+}
+.logo{
+	width:60%;
+}
+.navegador{
+	padding:1% 3% 3% 28%;
+}
+a{
+	font-family:"Open Sans";
+	font-style:italic;
+	text-decoration:none;
+	color:#F8F3DC;
+	padding-left:3%;
+}
+a:hover{
+	color:#F1B668;
+}
+.fondo{
+	background-image:url(../image/header-image.jpg);
+	background-repeat: no-repeat;
+	background-position:0 40% 0;
+	background-size:100%;
+	height:520px;
+	margin-top:1.3%;
+}
+.caja{
+	width:50%;
+	height:220px;
+	color:#F8F3DC;
+	background-color:#1C1821;
+	margin-left:25%;
+	margin-top:12%;
+	text-align:center;
+}
+.caja a{
+	padding-right:3%;
+}
+h1,h2{
+	font-family:"Courgette";
+	text-align:center;
+	color:#F7BA6A;
+}
+h1{
+	font-size:530%;
+	padding:7% 0 3%;
+}
+
+.bloque1{
+	background-color:#1C1821;
+	margin:4% 2% 4% 0;
+	text-align:center;
+	padding-bottom:5%;
+}
+.bloque2{
+	background-color:#1C1821;
+	margin:4% 1% 4% 1%;
+	text-align:center;
+	padding-bottom:5%;
+}
+.bloque3{
+	background-color:#1C1821;
+	margin:4% 0 4% 2%;
+	text-align:center;
+	padding-bottom:5%;
+}
+.contenedor{
+	margin-bottom:2%;
+}
+.fragancia{
+	background-color:#1C1821;
+	width:96.1%;
+}
+.center{
+	text-align:center;
+}
+.buscador{
+	border:20px solid #1C1821;
+	border-radius:4px;
+}
+.texto,h3{
+	font-family:"Open Sans";
+	color:#F8F3DC;
+	padding:2%;
+}
+input{
+	background-color:#2D2735;
+	color:#fff;
+	font-size:16px;
+	padding:2%;
+	margin-left:2%;
+	width:100%;
+}
+.about{
+	background-color:#1C1821;
+	margin:3% 0;
+	padding-bottom:2%;
+}
+.me{
+	padding-bottom:4%;
+}
+h3{
+	text-align:center;
+}
+.iconos{
+	margin:4% 0 4% 8%;
+}
+.iconos i{
+	background-color:#2D2735;
+	text-align:center;
+	border-radius:100%;
+	width:10%;
+	height:30px;
+	padding-top:2.4%;
+}
+.iconos i:hover{
+	color:#fff;
+}
+footer{
+	text-align:center;
+	color:#F8F3DC;
+	padding:20px 0;
+}
+.fa-bars{
+ 		display:none;
+ 	}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+	.navegador{
+ 		display:none;
+ 	}
+ 	.logo{
+ 		width:100%;
+ 	}
+ 	.fa-bars{
+ 		display:inline-block;
+ 		float:right;
+ 		padding:8%;
+ 	}
+ 	.caja{
+ 		width:60%;
+ 		height:180px;
+ 		margin-top:20%;
+ 	}
+ 	h1{
+ 		font-size:380%;
+ 	}
+}
+
+@media screen and (max-width: 600px) {
+ 	.navegador{
+ 		display:none;
+ 	}
+ 	.logo{
+ 		width:100%;
+ 	}
+ 	.fa-bars{
+ 		display:inline-block;
+ 		float:right;
+ 		padding:8%;
+ 	}
+ 	.fondo{
+ 		margin:2%;
+ 	}
+ 	.caja{
+ 		margin:4%;
+ 		padding:5%;
+ 		width:93%;
+ 		height:313px;
+ 	}
+ 	h1{
+ 		font-size:520%;
+ 		margin-top:-6%;
+ 	}
+ 	.flores{
+ 		display:block;
+ 		width:100%;
+ 	}
+ 	.contenedor{
+ 		width:100%;
+ 	}
+ 	.chica{
+ 		display:none;
+ 	}
+}
